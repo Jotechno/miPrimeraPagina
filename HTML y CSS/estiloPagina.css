@@ -1,0 +1,248 @@
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+    margin: 0;
+    background-image: url(/imagenes/635967.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    font-weight: 800;
+    padding-right: 10px;
+    color: #b5b0b0
+}
+
+nav a :hover {
+    color: aliceblue
+}
+
+nav {
+    max-width: 100%;
+    margin: auto;
+    background-color: #504f4f;
+    font-size: 25px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.menu>li:hover {
+    background-color: black;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu li:hover .dropdown-content {
+    display: block;
+
+}
+
+.nav-link :hover{
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 8px;
+    font-size: x-large;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+.logo img {
+    height: 120px;
+}
+
+.logo :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+
+}
+
+@media screen and (min-width:768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .descripcionItems {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+.JF :hover {
+    color: beige;
+}
+
+.JF {
+    max-width: 100%;
+    padding-left: 30px;
+    -webkit-text-stroke: 0.25px #2b67a4;
+    font-size: 50px;
+}
+
+.descripcionjf {
+    padding-left: 35px;
+    min-width: 600px;
+    font-size: 30px;
+    color: rgb(222, 220, 220);
+}
+
+.container {
+    display: flex;
+    max-width: 90%;
+    padding-top: 25px;
+}
+
+.Imagenes {
+    height: 200%;
+
+    padding-top: 700;
+}
+
+.descripcionFav {
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+
+}
+
+.tituloFavo {
+    max-width: 33.39%;
+}
+
+.canciones {
+    padding-left: 30px;
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 8px;
+    font-size: x-large;
+    max-width: 100%;
+}
+
+footer img {
+    height: 75px;
+    padding-left: 100px;
+}
+
+.logopie {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: small;
+    color: rgb(255, 255, 255);
+}
+
+.logopie :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.juegos_favoritos {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.redes {
+    padding-right: 20px;
+}
+
+.redes :hover {
+    box-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}

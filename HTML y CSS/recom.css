@@ -1,0 +1,283 @@
+body {
+    margin: 0;
+    background-image: url(/imagenes/1186452.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    font-weight: 800;
+    padding-right: 10px;
+    color: #ffffff
+}
+
+nav a :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+nav {
+    max-width: 100%;
+    background-color: #000000;
+    font-size: 25px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.menu>li:hover {
+    background-color: rgb(205, 37, 37);
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+}
+
+.menu li:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 8px;
+    font-size: x-large;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: x-large;
+    color: white;
+}
+
+.logo img {
+    height: 120px;
+
+}
+
+.logo :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+footer {
+    display: flex;
+    min-height: 60px;
+    background-color: rgb(0, 0, 0);
+    padding: 8px;
+    font-size: x-large;
+    max-width: 100%;
+    padding-left: 35%;
+}
+
+footer img {
+    height: 75px;
+    padding-left: 100px;
+}
+
+.logopie {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: small;
+    color: white;
+}
+
+.logopie :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.titulopagina {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+    margin-top: 70px;
+}
+
+.descpag {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 1700px;
+    margin-left: 60px;
+    font-size: 25px;
+    margin-top: 100px;
+    color: white;
+}
+
+.text {
+    margin: 20px;
+}
+
+.minecra {
+    text-align: center;
+    font-size: 90px;
+    -webkit-text-stroke: green 0.8px;
+    background: url(/imagenes/bd2bd167d7b4f2165454504cba8fd3c7.jpg);
+    background-size: contain;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    padding: 0;
+    margin: 0;
+
+}
+
+.minecraft {
+    background-color: rgba(144, 238, 144, 0.2);
+    width: fit-content;
+    margin-left: 65px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.mine {
+    font-size: 25px;
+    color: aliceblue;
+    margin: 25px;
+}
+
+.video {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.vid {
+    height: 350px;
+}
+
+.juegocalisto{
+    padding-top: 40px;
+}
+
+.calisto {
+    text-align: center;
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    background: url(https://steamuserimages-a.akamaihd.net/ugc/1119423428175279675/4C92B4920AD2A427728142D0CD15F20E70667DEB/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+    background-size: contain;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    padding: 0;
+    margin: 0;
+    -webkit-text-stroke: #000000 3px;
+}
+
+.protocol {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin-left: 65px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.sk{
+    color: white;
+}
+
+a:hover{
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.redes{
+    padding-right: 20px;
+}
+
+.redes :hover{
+        box-shadow:
+            0 0 7px rgb(192, 190, 190),
+            0 0 10px #fff,
+            0 0 21px #fff,
+            0 0 42px rgb(252, 10, 232),
+            0 0 82px #0fa,
+            0 0 92px #0fa,
+            0 0 102px rgb(162, 36, 162),
+            0 0 151px #0fa;
+}

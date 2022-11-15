@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    background-image: url(/imagenes/1186452.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    animation: change 60s infinite ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    font-weight: 800;
+    padding-right: 10px;
+    color: #ffffff
+}
+
+nav a :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+nav {
+    max-width: 100%;
+    background-color: #000000;
+    font-size: 25px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.menu>li:hover {
+    background-color: rgb(205, 37, 37);
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu li:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 8px;
+    font-size: x-large;
+    max-width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: x-large;
+    color: rgb(158, 232, 219);
+}
+
+.logo img {
+    height: 120px;
+
+}
+
+.logo :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+@keyframes change {
+    0% {
+        background-image: url(/imagenes/payday.jpg);
+    }
+
+    20% {
+        background-image: url(/imagenes/1186452.jpg);
+    }
+
+    40% {
+        background-image: url(/imagenes/jhin.jpg);
+    }
+
+    60% {
+        background-image: url(/imagenes/doom.jpg);
+    }
+
+    80% {
+        background-image: url(/imagenes/penitent.jpg);
+    }
+
+    100% {
+        background-image: url(/imagenes/payday.jpg);
+    }
+}
+
+.titulopag {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: anim 10s linear infinite;
+    -webkit-text-stroke: #000000 1px;
+    text-shadow:
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 151px #0fa;
+}
+
+@keyframes anim {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 400%;
+    }
+}
+
+.descSound {
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.descripcion {
+    font-size: 30px;
+    margin: 15px;
+    color: white;
+
+}
+
+footer {
+    display: flex;
+    min-height: 60px;
+    background-color: rgb(0, 0, 0);
+    padding: 8px;
+    font-size: x-large;
+    max-width: 100%;
+    padding-left: 35%;
+}
+
+footer img {
+    height: 75px;
+    padding-left: 100px;
+}
+
+.logopie {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: small;
+    color: rgb(158, 232, 219);
+}
+
+.logopie :hover {
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.tablapayday {
+    display: flex;
+}
+
+.payday {
+    padding-left: 15px;
+}
+
+.canciones {
+    height: 35px;
+    width: 250px;
+}
+
+.spoty {
+    width: 225px;
+}
+
+.yutu {
+    width: 175px;
+    height: 75px;
+    margin: 10px;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+.encabezado {
+    color: aliceblue;
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.nombrecancion {
+
+    color: white;
+}
+
+.descpayday {
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.descsoundtrack {
+    font-size: 30px;
+    color: white;
+}
+
+.pl {
+    text-decoration: underline;
+    color: aquamarine;
+}
+
+.titulojuego {
+    display: flex;
+    padding-left: 41%;
+}
+
+.titulo {
+    font-size: 60px;
+    color: white;
+    word-spacing: 10000px;
+    font-family: fantasy;
+    text-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(224, 210, 223),
+        0 0 82px rgb(171, 176, 174),
+        0 0 92px rgb(226, 232, 230),
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.numero {
+    font-size: 60px;
+    color: #0091ff;
+    padding-left: 8px;
+    font-family: fantasy;
+    text-shadow:
+        0 0 7px rgb(19, 217, 244),
+        0 0 10px rgb(100, 200, 246),
+        0 0 21px rgb(78, 145, 238),
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
+
+.tituloblas {
+    font-size: 60px;
+    color: rgb(197, 153, 32);
+    word-spacing: 10000px;
+    font-family: 'MedievalSharp', cursive;
+    text-shadow:
+        0 0 7px rgb(237, 244, 19),
+        0 0 10px rgb(239, 246, 100),
+        0 0 21px rgb(162, 176, 72),
+        0 0 42px rgb(191, 198, 12),
+        0 0 82px rgb(234, 255, 0),
+        0 0 92px rgb(187, 255, 0),
+        0 0 102px rgb(147, 162, 36),
+        0 0 151px rgb(221, 255, 0);
+}
+
+.redes {
+    padding-right: 20px;
+}
+
+.redes :hover {
+    box-shadow:
+        0 0 7px rgb(192, 190, 190),
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px rgb(252, 10, 232),
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px rgb(162, 36, 162),
+        0 0 151px #0fa;
+}
